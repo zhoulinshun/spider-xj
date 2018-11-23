@@ -2,28 +2,17 @@ spring:
   data:
     mongodb:
       database: test
-      host: 132.232.17.120
+      host: my.tencent.cn
       username: test_user
       password: '1049832901'
       authentication-database: test
       port: 27011
       grid-fs-database: admin
 
-  banner:
-    location: hello.c
-
   datasource:
-    url: jdbc:mysql://132.232.17.120:3306/
+    url: jdbc:mysql://my.tencent.cn:3306/
     password:
-#
-#spring:
-#  data:
-#    mongodb:
-#      database: wecash
-#      host: 10.21.26.240:27017
-#      port: 27017
-#      username: wecash
-#      password: hV1l0Sol
+
 
 test:
   enable: false
